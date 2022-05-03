@@ -1,0 +1,88 @@
+body {
+  /* background: #e1e9f6; */
+  /* background: linear-gradient(#e1e9f6, #cedaf0, #cfdbef); */
+  background: rgb(225,233,246);
+background: linear-gradient(186deg, rgba(225,233,246,1) 0%, rgba(205,217,239,1) 46%, rgba(207,219,239,1) 100%);
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 1rem;
+}
+
+.photo {
+  width: 30%;
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+.photo img {
+  width: 100%;
+  /* max-width: 300px; */
+  border: 1px solid #949ba8;
+  border-radius: 6px;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card label {
+  color: #1a2c6e;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.login-card input {
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid #949ba8;
+  padding: .3rem;
+  font-size: 1rem;
+  outline-style: none;
+  color:#1a2c6e;
+}
+
+.login-card-input-email select{
+  width: 22px;
+  background-color: white;
+  border: 1px solid #949ba8;
+  padding: .3rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.login-card-label-status {
+  margin-top: 10px;
+}
+
+.login-card-label-status select{
+  background: transparent;
+  border: none;
+  color:#1a2c6e;
+  outline: none;
+  font-size: 1rem;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 6px 20px;
+  background-color: white;
+  color: #1a2c6e;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MSN</title>
+</head>
+<body>
+  <div class="main">
+    <div class="photo">
+      <img src="./assets/teste.png">
+    </div>
+    <div class="login-card">
+      <label>E-mail adress:</label>
+      <div class="login-card-input-email">
+        <input type="text"/>
+        <select name="emails">
+          <option value="hotmail" selected>hotmail.com</option>
+          <option value="msn">msn.com</option>
+        </select>
+      </div>
+      <label>Password:</label>
+      <input type="password"/>
+      <div class="login-card-label-status">
+        <label>Status:</label>
+        <select name="status">
+          <option value="online" selected>Online</option>
+          <option value="ocupado">Ocupado</option>
+          <option value="ausente">Ausente</option>
+          <option value="Invisivel">Invisivel</option>
+        </select>
+    </div>
+    <div class="checkbox">
+      <div class="checkbox-content">
+        <input type="checkbox" id="remember-email" name="remember-email">
+        <label for="remember-email">Remember Me</label>
+      </div>
+      <div class="checkbox-content">
+        <input type="checkbox" id="remember-pass" name="remember-pass">
+        <label for="remember-pass">Remember my Password</label>
+      </div>
+      <div class="checkbox-content">
+        <input type="checkbox" id="sign-in-auto" name="sign-in-auto">
+        <label for="sign-in-auto">Sign me in automatically</label>
+      </div>
+    </div>
+    </div>
+    <button>Sign In</button>
+  </div>
+</body>
+</html>
